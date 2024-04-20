@@ -223,7 +223,7 @@ const Service1 = () => {
                           Video Production
                         </h2>
                         <p>
-                          Elevate your brand's storytelling with our expert Video Production services. From concept to creation, we bring your
+                          Elevate your brand is storytelling with our expert Video Production services. From concept to creation, we bring your
                           vision to life with stunning visuals and compelling narratives that captivate and engage your audience.
                         </p>
                         <ul>
@@ -265,7 +265,7 @@ const Service1 = () => {
                           Digital Marketing
                         </h2>
                         <p>
-                          Transform your brand's online presence with our
+                          Transform your brand is online presence with our
                           comprehensive Digital Marketing solutions. From SEO
                           strategies to engaging content and social media campaigns,
                           we enhance your visibility and reach, ensuring maximum impact
