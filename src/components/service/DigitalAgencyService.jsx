@@ -249,7 +249,7 @@ const DigitalAgencyService = () => {
                       </div>
                       <div className="service__text">
                         <p>
-                        Embark on a transformative journey with 'Call for Development Agency' 
+                        Embark on a transformative journey with Call for Development Agency 
                         a compelling exploration of innovative strategies and sustainable solutions 
                         in fostering growth and progress within communities.
                         </p>
@@ -280,7 +280,7 @@ const DigitalAgencyService = () => {
                       <div className="service__text">
                         <p>
                         Dive into the world of storytelling and visual 
-                        excellence with 'Call for Video Production'
+                        excellence with Call for Video Production
                          where every frame is crafted to captivate and inspire your audience.
                         </p>
                       </div>
@@ -309,7 +309,7 @@ const DigitalAgencyService = () => {
                       </div>
                       <div className="service__text">
                         <p>
-                        Join the digital revolution with 'Call for Digital Marketing' 
+                        Join the digital revolution with Call for Digital Marketing 
                         where strategic campaigns and creative content propel your 
                         brand to new heights in the online landscape.
                         </p>
@@ -339,7 +339,7 @@ const DigitalAgencyService = () => {
                       <div className="service__text">
                         <p>
                           
-                        Elevate your brand identity and strategic vision with 'Call for Branding and Strategy' 
+                        Elevate your brand identity and strategic vision with Call for Branding and Strategy 
                         a dynamic platform for crafting impactful narratives and driving business success.
                         </p>
                       </div>
