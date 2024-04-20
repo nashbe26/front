@@ -119,7 +119,7 @@ const DigitalAgencyTestimonial = ({
     <>
       <section
         className="testimonial__area"
-        style={{ position: "relative" }}
+        style={{ position: "relative",padding:"4rem 0" }}
         ref={testimonialArea}
       >
         <div className="container g-0 line">

@@ -94,7 +94,7 @@ export default function RootLayout({
         <div id="smooth-wrapper">
           <div id="smooth-content">
             {children}
-            <FooterContent footer={footer} />
+            <FooterContent footer={"footer1"} />
           </div>
         </div>
       </CommonAnimation>

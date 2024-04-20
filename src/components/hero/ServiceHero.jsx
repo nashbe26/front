@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import Solution from "../../../public/assets/imgs/thumb/solution.png";
-import Solution2 from "../../../public/assets/imgs/thumb/solution-2.png";
+import Solution2 from "../../../public/assets/imgs/thumb/solution-2.jpg";
 import Solution3 from "../../../public/assets/imgs/thumb/solution-3.png";
 import Icon1 from "../../../public/assets/imgs/icon/1.png";
 import Icon2 from "../../../public/assets/imgs/icon/2.png";

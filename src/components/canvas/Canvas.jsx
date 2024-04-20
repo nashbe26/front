@@ -70,22 +70,16 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
               <h3 className="social-title">Follow Us</h3>
               <ul>
                 <li>
-                  <a href="#">Dribbble</a>
+                  <a href="https://www.instagram.com/xsustain.io" target="_blank">Instagram</a>
                 </li>
                 <li>
-                  <a href="#">Behance</a>
+                  <a href="https://www.facebook.com/profile.php?id=100092410189555" target="_blank">Facebook</a>
                 </li>
                 <li>
-                  <a href="#">Instagram</a>
+                  <a href="https://tn.linkedin.com/company/xsustain" target="_blank">Linkedin</a>
                 </li>
                 <li>
-                  <a href="#">Facebook</a>
-                </li>
-                <li>
-                  <a href="#">Twitter</a>
-                </li>
-                <li>
-                  <a href="#">YouTube</a>
+                  <a href="https://www.tiktok.com/@xsustain" target="_blank">Tiktok</a>
                 </li>
               </ul>
             </div>
@@ -118,16 +112,16 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
                    
                   </li>
                   <li>
-                    <div className="header_title">
-                      <Link href={"/about"}>ABOUT</Link>
-                    </div>
-                  </li>
-                  <li>
                     <div className="header_title d-flex">
                       <Link href={"/service"}>SERVICE</Link>
                      
                     </div>
                    
+                  </li>
+                  <li>
+                    <div className="header_title">
+                      <Link href={"/faq"}>FAQS</Link>
+                    </div>
                   </li>
                   <li>
                     <div className="header_title">
@@ -140,12 +134,7 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
           </div>
           <div className="offcanvas__right">
             <div className="offcanvas__search">
-              <form action="#">
-                <input type="text" name="search" placeholder="Search keyword" />
-                <button>
-                  <FontAwesomeIcon icon={faMagnifyingGlass}></FontAwesomeIcon>
-                </button>
-              </form>
+           
             </div>
             <div className="offcanvas__contact">
               <h3>Get in touch</h3>

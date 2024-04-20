@@ -234,7 +234,7 @@ const DigitalAgencyService = () => {
               <div className="col-xxl-8 col-xl-8 col-lg-12 col-md-12">
                 <div className="service__list" ref={serviceList}>
                   <Link
-                    href="/service-details"
+                    href="/service"
                     className={activeList == 1 ? "active" : ""}
                     data-service="1"
                   >
@@ -249,8 +249,9 @@ const DigitalAgencyService = () => {
                       </div>
                       <div className="service__text">
                         <p>
-                          We create, products, brands, apps & websites for the
-                          companies all around the world class digital products
+                        Embark on a transformative journey with 'Call for Development Agency,' 
+                        a compelling exploration of innovative strategies and sustainable solutions 
+                        in fostering growth and progress within communities.
                         </p>
                       </div>
                       <div className="service__link">
@@ -262,7 +263,7 @@ const DigitalAgencyService = () => {
                   </Link>
 
                   <Link
-                    href="/service-details"
+                    href="/service"
                     className={activeList == 2 ? "active" : ""}
                     data-service="2"
                   >
@@ -278,8 +279,9 @@ const DigitalAgencyService = () => {
                       </div>
                       <div className="service__text">
                         <p>
-                          We create, products, brands, apps & websites for the
-                          companies all around the world class digital products
+                        Dive into the world of storytelling and visual 
+                        excellence with 'Call for Video Production,'
+                         where every frame is crafted to captivate and inspire your audience.
                         </p>
                       </div>
                       <div className="service__link">
@@ -291,7 +293,7 @@ const DigitalAgencyService = () => {
                   </Link>
 
                   <Link
-                    href="/service-details"
+                    href="/service"
                     className={activeList == 3 ? "active" : ""}
                     data-service="3"
                   >
@@ -307,8 +309,9 @@ const DigitalAgencyService = () => {
                       </div>
                       <div className="service__text">
                         <p>
-                          We create, products, brands, apps & websites for the
-                          companies all around the world class digital products
+                        Join the digital revolution with 'Call for Digital Marketing,' 
+                        where strategic campaigns and creative content propel your 
+                        brand to new heights in the online landscape.
                         </p>
                       </div>
                       <div className="service__link">
@@ -320,7 +323,7 @@ const DigitalAgencyService = () => {
                   </Link>
 
                   <Link
-                    href="/service-details"
+                    href="/service"
                     className={activeList == 4 ? "active" : ""}
                     data-service="4"
                   >
@@ -335,8 +338,9 @@ const DigitalAgencyService = () => {
                       </div>
                       <div className="service__text">
                         <p>
-                          We create, products, brands, apps & websites for the
-                          companies all around the world class digital products
+                          
+                        Elevate your brand identity and strategic vision with 'Call for Branding and Strategy,' 
+                        a dynamic platform for crafting impactful narratives and driving business success.
                         </p>
                       </div>
                       <div className="service__link">

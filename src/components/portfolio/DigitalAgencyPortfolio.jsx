@@ -83,7 +83,7 @@ const DigitalAgencyPortfolio = () => {
             <h2 className="portfolio__text">work</h2>
             <div className="portfolio__list-1">
               <div className="portfolio__item">
-                <Link href="portfolio-details">
+                <Link href="/">
                   <Image
                     priority
                     style={{ width: "100%", height: "auto" }}
@@ -93,12 +93,12 @@ const DigitalAgencyPortfolio = () => {
                   />
                 </Link>
                 <div className="portfolio__info">
-                  <h3 className="portfolio__title">Arteck Lyon Conseil</h3>
-                  <p>02 May 2021</p>
+                  <h3 className="portfolio__title">SKARSA</h3>
+                  <p>01 April 2024</p>
                 </div>
               </div>
               <div className="portfolio__item">
-                <Link href="/portfolio-details">
+                <Link href="/">
                   <Image
                     priority
                     style={{ width: "100%", height: "auto" }}
@@ -107,12 +107,12 @@ const DigitalAgencyPortfolio = () => {
                   />
                 </Link>
                 <div className="portfolio__info">
-                  <h3 className="portfolio__title">Arteck Lyon Conseil</h3>
-                  <p>02 May 2021</p>
+                  <h3 className="portfolio__title">Piramida Constraction</h3>
+                  <p>17 May 2023</p>
                 </div>
               </div>
               <div className="portfolio__item">
-                <Link href="/portfolio-details">
+                <Link href="/">
                   <Image
                     priority
                     style={{ width: "100%", height: "auto" }}
@@ -121,12 +121,12 @@ const DigitalAgencyPortfolio = () => {
                   />
                 </Link>
                 <div className="portfolio__info">
-                  <h3 className="portfolio__title">Arteck Lyon Conseil</h3>
-                  <p>02 May 2021</p>
+                  <h3 className="portfolio__title">Portfolio XSUSTAIN.</h3>
+                  <p>02 May 2022</p>
                 </div>
               </div>
               <div className="portfolio__item">
-                <Link href="/portfolio-details">
+                <Link href="/">
                   <Image
                     priority
                     style={{ width: "100%", height: "auto" }}
@@ -135,12 +135,12 @@ const DigitalAgencyPortfolio = () => {
                   />
                 </Link>
                 <div className="portfolio__info">
-                  <h3 className="portfolio__title">Arteck Lyon Conseil</h3>
-                  <p>02 May 2021</p>
+                  <h3 className="portfolio__title">SNIPZ</h3>
+                  <p>29 December 2021</p>
                 </div>
               </div>
               <div className="portfolio__item">
-                <Link href="/portfolio-details">
+                <Link href="/">
                   <Image
                     priority
                     style={{ width: "100%", height: "auto" }}
@@ -149,12 +149,12 @@ const DigitalAgencyPortfolio = () => {
                   />
                 </Link>
                 <div className="portfolio__info">
-                  <h3 className="portfolio__title">Arteck Lyon Conseil</h3>
-                  <p>02 May 2021</p>
+                  <h3 className="portfolio__title">Luna 3D Packaging</h3>
+                  <p>10 february 2024</p>
                 </div>
               </div>
               <div className="portfolio__item">
-                <Link href="/portfolio-details">
+                <Link href="/">
                   <Image
                     priority
                     style={{ width: "100%", height: "auto" }}
@@ -163,8 +163,8 @@ const DigitalAgencyPortfolio = () => {
                   />
                 </Link>
                 <div className="portfolio__info">
-                  <h3 className="portfolio__title">Arteck Lyon Conseil</h3>
-                  <p>02 May 2021</p>
+                  <h3 className="portfolio__title">Kanz Capital</h3>
+                  <p>20 July 2023</p>
                 </div>
               </div>
             </div>

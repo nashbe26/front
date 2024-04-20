@@ -142,16 +142,16 @@ export default function Footer1() {
             <div className="footer__social-3">
               <ul>
                 <li>
-                  <a href="#">facebook</a>
+                  <a href="https://www.facebook.com/profile.php?id=100092410189555" target="_blank">Facebook</a>
                 </li>
                 <li>
-                  <a href="#">Twitter</a>
+                  <a href="https://www.tiktok.com/@xsustain" target="_blank">Tiktok</a>
                 </li>
                 <li>
-                  <a href="#">Linkedin</a>
+                  <a href="https://www.linkedin.com/company/xsustain" target="_blank">Linkedin</a>
                 </li>
                 <li>
-                  <a href="#">Instagram</a>
+                  <a href="https://www.instagram.com/xsustain.io" target="_blank">Instagram</a>
                 </li>
               </ul>
             </div>
@@ -180,13 +180,10 @@ export default function Footer1() {
                 <div className="footer__nav-2">
                   <ul className="footer-menu-2 menu-anim" ref={menuAnim}>
                     <li>
-                      <Link href="/about">about us</Link>
+                      <Link href="/service">Service</Link>
                     </li>
                     <li>
-                      <Link href="/contact">contact</Link>
-                    </li>
-                    <li>
-                      <Link href="/career">Career</Link>
+                      <Link href="/contact">Contact us</Link>
                     </li>
                     <li>
                       <Link href="/faq">FAQs</Link>

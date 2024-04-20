@@ -67,9 +67,9 @@
       .price {
         &__icon {
           span {
-            color: var(--black-2);
-            border-color: var(--pink-2);
-            background-color: var(--pink-2);
+            color: var(--white);
+            border-color: var(--primary);
+            background-color: var(--primary);
           }
         }
 
@@ -104,7 +104,7 @@
       text-transform: uppercase;
       padding: 8px 12px;
       border-radius: 5px;
-      background-color: var(--pink-2);
+      background-color: var(--primary);
       position: absolute;
       height: 100%;
     display: flex;
@@ -188,7 +188,7 @@
       text-transform: uppercase;
       padding: 8px 12px;
       border-radius: 5px;
-      background-color: var(--pink-2);
+      background-color: var(--primary);
       position: absolute;
       height: 100%;
     display: flex;

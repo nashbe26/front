@@ -2,10 +2,10 @@ import { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "@/plugins";
 import Link from "next/link";
-import Service11 from "../../../public/assets/imgs/service/1.jpg";
+import Service11 from "../../../public/assets/imgs/service/1.png";
 import Service12 from "../../../public/assets/imgs/service/2.jpg";
-import Service13 from "../../../public/assets/imgs/service/3.jpg";
-import Service14 from "../../../public/assets/imgs/service/4.jpg";
+import Service13 from "../../../public/assets/imgs/service/3.png";
+import Service14 from "../../../public/assets/imgs/service/4.png";
 import Service15 from "../../../public/assets/imgs/service/5.jpg";
 import Image from "next/image";
 
@@ -96,38 +96,28 @@ const Service1 = () => {
               <div className="content-wrapper">
                 <div className="left-content">
                   <ul className="service__list-6">
+
                     <li>
                       <a href="#service_1">
-                        Interaction <br />
-                        Design
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#service_2">
                         Web & Mobile <br />
                         Development
                       </a>
                     </li>
+
+                    <li>
+                      <a href="#service_2">
+                        Video <br /> Production
+                      </a>
+                    </li>
                     <li>
                       <a href="#service_3">
-                        Motion & Branding <br />
-                        Design
+                        Digital  <br /> Marketing
                       </a>
                     </li>
                     <li>
                       <a href="#service_4">
-                        Digital <br /> Maketing
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#service_5">
-                        Concept and <br />
+                        Branding and <br />
                         Strategy
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#service_6">
-                        Illustrations & <br /> Prototype
                       </a>
                     </li>
                   </ul>
@@ -166,24 +156,7 @@ const Service1 = () => {
                       alt="Service Image"
                     />
                   </div>
-                  <div className="service__image">
-                    <Image
-                      priority
-                      style={{ width: "auto", height: "auto" }}
-                      src={Service15}
-                      alt="Service Image"
-                    />
-                  </div>
-                  <div className="service__image">
-                    <Image
-                      priority
-                      style={{ width: "auto", height: "auto" }}
-                      src={Service14}
-                      alt="Service Image"
-                    />
-                  </div>
                 </div>
-
                 <div className="right-content">
                   <div className="service__items-6">
                     <div
@@ -202,26 +175,25 @@ const Service1 = () => {
 
                       <div className="animation__service_page">
                         <h2 className="service__title-6">
-                          User paths or user flows functional models
+                          Web & Mobile Development
                         </h2>
                         <p>
-                          This is the second workshop of the UX design
-                          methodology. Given all the conclusions drawn in the
-                          personae workshop, we will project ourselves towards
-                          the production of ideal user journeys. In other words:
-                          how each persona can achieve their goal.
+                          Unlock the full potential of your digital presence with our comprehensive
+                          Web & Mobile Development services.
+                          From captivating websites to intuitive mobile apps, we craft seamless
+                          digital experiences tailored to your unique needs.
                         </p>
                         <ul>
-                          <li>+ API Development</li>
-                          <li>+ WordPress</li>
-                          <li>+ Cloud Migration</li>
+                          <li>+ Back End Development</li>
                           <li>+ Front End Development</li>
-                          <li>+ JavaScript</li>
+                          <li>+ React Native</li>
                           <li>+ Fluter Framework</li>
+                          <li>+ WordPress</li>
+                          <li>+ API Development</li>
                         </ul>
                         <div className="btn_wrapper">
                           <Link
-                            href="/service-details"
+                            href="/contact"
                             className="wc-btn-secondary btn-item btn-hover"
                           >
                             <span></span>Get free
@@ -248,22 +220,18 @@ const Service1 = () => {
 
                       <div className="animation__service_page">
                         <h2 className="service__title-6">
-                          Web & Mobile Development
+                          Video Production
                         </h2>
                         <p>
-                          This is the second workshop of the UX design
-                          methodology. Given all the conclusions drawn in the
-                          personae workshop, we will project ourselves towards
-                          the production of ideal user journeys. In other words:
-                          how each persona can achieve their goal.
+                          Elevate your brand's storytelling with our expert Video Production services. From concept to creation, we bring your
+                          vision to life with stunning visuals and compelling narratives that captivate and engage your audience.
                         </p>
                         <ul>
-                          <li>+ API Development</li>
-                          <li>+ WordPress</li>
-                          <li>+ Cloud Migration</li>
-                          <li>+ Front End Development</li>
-                          <li>+ JavaScript</li>
-                          <li>+ Fluter Framework</li>
+                          <li>+ Scriptwriting</li>
+                          <li>+ High Quality Filming</li>
+                          <li>+ Professional Video Editing</li>
+                          <li>+ Visual Effects</li>
+                          <li>+ Motion Graphics</li>
                         </ul>
                         <div className="btn_wrapper">
                           <Link
@@ -294,22 +262,22 @@ const Service1 = () => {
 
                       <div className="animation__service_page">
                         <h2 className="service__title-6">
-                          UMotion & Branding Design
+                          Digital Marketing
                         </h2>
                         <p>
-                          This is the second workshop of the UX design
-                          methodology. Given all the conclusions drawn in the
-                          personae workshop, we will project ourselves towards
-                          the production of ideal user journeys. In other words:
-                          how each persona can achieve their goal.
+                          Transform your brand's online presence with our
+                          comprehensive Digital Marketing solutions. From SEO
+                          strategies to engaging content and social media campaigns,
+                          we enhance your visibility and reach, ensuring maximum impact
+                          and engagement with your target audience.
                         </p>
                         <ul>
-                          <li>+ API Development</li>
-                          <li>+ WordPress</li>
-                          <li>+ Cloud Migration</li>
-                          <li>+ Front End Development</li>
-                          <li>+ JavaScript</li>
-                          <li>+ Fluter Framework</li>
+                          <li>+ SEO</li>
+                          <li>+ PPC Advertising</li>
+                          <li>+ Social Media Marketing</li>
+                          <li>+ Content Marketing</li>
+                          <li>+ Email Marketing</li>
+                          <li>+ Analytics and Reporting</li>
                         </ul>
                         <div className="btn_wrapper">
                           <Link
@@ -340,114 +308,21 @@ const Service1 = () => {
 
                       <div className="animation__service_page">
                         <h2 className="service__title-6">
-                          User paths or user flows functional models
+                        Branding and strategy
                         </h2>
                         <p>
-                          This is the second workshop of the UX design
-                          methodology. Given all the conclusions drawn in the
-                          personae workshop, we will project ourselves towards
-                          the production of ideal user journeys. In other words:
-                          how each persona can achieve their goal.
+                          Unlock the full potential of your brand with our innovative
+                          Branding and Strategy services. From crafting compelling brand narratives to developing strategic
+                          marketing plans, we help you stand out in a crowded market and
+                          build lasting connections with your audience.
                         </p>
                         <ul>
-                          <li>+ API Development</li>
-                          <li>+ WordPress</li>
-                          <li>+ Cloud Migration</li>
-                          <li>+ Front End Development</li>
-                          <li>+ JavaScript</li>
-                          <li>+ Fluter Framework</li>
-                        </ul>
-                        <div className="btn_wrapper">
-                          <Link
-                            href="/service-details"
-                            className="wc-btn-secondary btn-item btn-hover"
-                          >
-                            <span></span>Get free
-                            <br />
-                            qoutes <i className="fa-solid fa-arrow-right"></i>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div
-                      className="service__item-6"
-                      id="service_5"
-                      data-secid="5"
-                    >
-                      <div className="image-tab">
-                        <Image
-                          priority
-                          style={{ width: "auto", height: "auto" }}
-                          src={Service15}
-                          alt="Service Image"
-                        />
-                      </div>
-
-                      <div className="animation__service_page">
-                        <h2 className="service__title-6">
-                          User paths or user flows functional models
-                        </h2>
-                        <p>
-                          This is the second workshop of the UX design
-                          methodology. Given all the conclusions drawn in the
-                          personae workshop, we will project ourselves towards
-                          the production of ideal user journeys. In other words:
-                          how each persona can achieve their goal.
-                        </p>
-                        <ul>
-                          <li>+ API Development</li>
-                          <li>+ WordPress</li>
-                          <li>+ Cloud Migration</li>
-                          <li>+ Front End Development</li>
-                          <li>+ JavaScript</li>
-                          <li>+ Fluter Framework</li>
-                        </ul>
-                        <div className="btn_wrapper">
-                          <Link
-                            href="/service-details"
-                            className="wc-btn-secondary btn-item btn-hover"
-                          >
-                            <span></span>Get free
-                            <br />
-                            qoutes <i className="fa-solid fa-arrow-right"></i>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div
-                      className="service__item-6"
-                      id="service_6"
-                      data-secid="6"
-                    >
-                      <div className="image-tab">
-                        <Image
-                          priority
-                          style={{ width: "auto", height: "auto" }}
-                          src={Service14}
-                          alt="Service Image"
-                        />
-                      </div>
-
-                      <div className="animation__service_page">
-                        <h2 className="service__title-6">
-                          Illustrations & Prototype
-                        </h2>
-                        <p>
-                          This is the second workshop of the UX design
-                          methodology. Given all the conclusions drawn in the
-                          personae workshop, we will project ourselves towards
-                          the production of ideal user journeys. In other words:
-                          how each persona can achieve their goal.
-                        </p>
-                        <ul>
-                          <li>+ API Development</li>
-                          <li>+ WordPress</li>
-                          <li>+ Cloud Migration</li>
-                          <li>+ Front End Development</li>
-                          <li>+ JavaScript</li>
-                          <li>+ Fluter Framework</li>
+                          <li>+ Brand Identity Development</li>
+                          <li>+ Market Research</li>
+                          <li>+ Brand Positioning</li>
+                          <li>+ Strategic Planning</li>
+                          <li>+ Competitive Analysis</li>
+                          <li>+ Brand Guidelines</li>
                         </ul>
                         <div className="btn_wrapper">
                           <Link

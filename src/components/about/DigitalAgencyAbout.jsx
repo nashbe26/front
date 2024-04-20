@@ -3,7 +3,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger, ScrollSmoother } from "@/plugins";
 import Link from "next/link";
 import Image from "next/image";
-import About11 from "../../../public/assets/imgs/about/1/1.jpg";
+import About11 from "../../../public/assets/imgs/about/1/1.jpeg";
 import About12 from "../../../public/assets/imgs/about/1/2.jpg";
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
