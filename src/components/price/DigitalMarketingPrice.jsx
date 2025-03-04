@@ -61,15 +61,16 @@ const DigitalMarketingPrice = () => {
                 <Accordion defaultActiveKey="0" className="accordion">
                   <Accordion.Item eventKey="0" className="accordion-item">
                     <Accordion.Header>
-                      Design should enrich our day
+                      What is XSUSTAIN?
                     </Accordion.Header>
                     <Accordion.Body>
                       <div>
                         <p>
-                          Our design services starts and ends with a
-                          best-in-class experience strategy that builds brands.
-                          Through a process of iteration and prototyping design
-                          interfaces that bring joy to people
+                        XSUSTAIN is a digital agency specializing in 
+                        software development, mobile app development, 
+                        e-commerce solutions, social media management, 
+                        branding, and video production. We help businesses 
+                        optimize their digital presence and streamline operations.
                         </p>
                       </div>
                     </Accordion.Body>
@@ -77,15 +78,16 @@ const DigitalMarketingPrice = () => {
 
                   <Accordion.Item eventKey="1" className="accordion-item">
                     <Accordion.Header>
-                      Bring their individual experience and creative
+                    How can I contact XSUSTAIN?
                     </Accordion.Header>
                     <Accordion.Body>
                       <div>
                         <p>
-                          This is the second `${`item's`}` accordion body. It is
-                          hidden by default, until the collapse plugin adds the
-                          appropriate classes that we use to style each element.
-                          These classes.
+                        You can reach us via email at 
+                        contact@xsustain.io or 
+                        through our social media channels.
+
+
                         </p>
                       </div>
                     </Accordion.Body>
@@ -93,15 +95,14 @@ const DigitalMarketingPrice = () => {
 
                   <Accordion.Item eventKey="2" className="accordion-item">
                     <Accordion.Header>
-                      Human centred design to challenges
+                    What industries does XSUSTAIN serve?
+
                     </Accordion.Header>
                     <Accordion.Body>
                       <div>
                         <p>
-                          Our design services starts and ends with a
-                          best-in-class experience strategy that builds brands.
-                          Through a process of iteration and prototyping design
-                          interfaces that bring joy to people
+                        We primarily work with  e-commerce businesses, service providers
+                        and corporate clients looking for digital transformation solutions.
                         </p>
                       </div>
                     </Accordion.Body>
@@ -109,15 +110,14 @@ const DigitalMarketingPrice = () => {
 
                   <Accordion.Item eventKey="3" className="accordion-item">
                     <Accordion.Header>
-                      Design should enrich our day
+                    Can you manage my social media accounts?
                     </Accordion.Header>
                     <Accordion.Body>
                       <div>
                         <p>
-                          Our design services starts and ends with a
-                          best-in-class experience strategy that builds brands.
-                          Through a process of iteration and prototyping design
-                          interfaces that bring joy to people
+                        Yes, we provide end-to-end social media management, 
+                        including content creation, posting schedules, 
+                        audience engagement, and analytics tracking.
                         </p>
                       </div>
                     </Accordion.Body>
@@ -125,15 +125,14 @@ const DigitalMarketingPrice = () => {
 
                   <Accordion.Item eventKey="4" className="accordion-item">
                     <Accordion.Header>
-                      Developing core web applications
+                    Do you create branding materials?
                     </Accordion.Header>
                     <Accordion.Body>
                       <div>
                         <p>
-                          Our design services starts and ends with a
-                          best-in-class experience strategy that builds brands.
-                          Through a process of iteration and prototyping design
-                          interfaces that bring joy to people
+                        Yes, we offer logo design, 
+                        brand identity development, packaging design, 
+                        and more to help establish a strong brand presence.
                         </p>
                       </div>
                     </Accordion.Body>
@@ -187,8 +186,8 @@ const DigitalMarketingPrice = () => {
                   href="/contact"
                   className="wc-btn-black btn-hover btn-item"
                 >
-                  <span></span> Try it <br />
-                  Free Now <i className="fa-solid fa-arrow-right"></i>
+                  <span></span> Contact us <br />
+                  Now <i className="fa-solid fa-arrow-right"></i>
                 </Link>
               </div>
             </div>

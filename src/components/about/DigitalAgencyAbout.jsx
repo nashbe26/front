@@ -3,8 +3,8 @@ import { gsap } from "gsap";
 import { ScrollTrigger, ScrollSmoother } from "@/plugins";
 import Link from "next/link";
 import Image from "next/image";
-import About11 from "../../../public/assets/imgs/about/1/1.jpeg";
-import About12 from "../../../public/assets/imgs/about/1/2.jpg";
+import About11 from "../../../public/assets/imgs/about/1/1.webp";
+import About12 from "../../../public/assets/imgs/about/1/2.webp";
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
@@ -78,9 +78,9 @@ const DigitalAgencyAbout = () => {
                   <div className="cursor-btn btn_wrapper">
                     <Link
                       className="btn-item wc-btn-primary btn-hover"
-                      href="/about"
+                      href="/portfolio"
                     >
-                      <span></span> Explore Us{" "}
+                      <span></span> Our work{" "}
                       <i className="fa-solid fa-arrow-right"></i>
                     </Link>
                   </div>

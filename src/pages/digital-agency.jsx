@@ -15,6 +15,7 @@ import DigitalAgencyBlog from "@/components/blog/DigitalAgencyBlog";
 import DigitalAgencyCTA from "@/components/cta/DigitalAgencyCTA";
 import DigitalMarketingWorkflow from "@/components/workflow/DigitalMarketingWorkflow";
 import DigitalMarketingPrice from "@/components/price/DigitalMarketingPrice";
+import Team1 from "@/components/team/Team1";
 
 const DigitalAgency = () => {
   const modalTestimonial1 = useRef();
@@ -79,9 +80,25 @@ const DigitalAgency = () => {
   return (
     <div>
       <Head>
-        <title>XSUSTAIN. AGENCY</title>
-        <meta name="description" content="Digital Agency Description" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>XSUSTAIN | Digital Solutions for Business Growth</title>
+
+      <meta name="description" content="XSUSTAIN is a leading digital agency specializing in web development, mobile apps, CRM solutions, social media management, and branding to drive business success." />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta name="keywords" content="digital agency, web development, mobile apps, CRM solutions, branding, social media management, business growth" />
+      <meta name="author" content="XSUSTAIN" />
+
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="XSUSTAIN | Digital Solutions for Business Growth" />
+      <meta property="og:description" content="Explore cutting-edge digital solutions with XSUSTAIN, from web and mobile development to CRM and social media growth strategies." />
+      <meta property="og:image" content="https://www.xsustain.io/logo.png" />
+      <meta property="og:url" content="https://www.xsustain.io" />
+
+
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="XSUSTAIN | Digital Solutions for Business Growth" />
+      <meta name="twitter:description" content="XSUSTAIN delivers top-notch digital services, including web development, branding, CRM solutions, and social media marketing." />
+      <meta name="twitter:image" content="https://www.xsustain.io/logo.png" />
+
       </Head>
       <main>
         <div className="cursor" id="client_cursor">
@@ -93,15 +110,9 @@ const DigitalAgency = () => {
           <DigitalAgencyAbout />
           <DigitalAgencyService />
           <DigitalAgencyPortfolio />
+          <Team1></Team1>
+          <DigitalAgencyBrand></DigitalAgencyBrand>
           <DigitalMarketingWorkflow />
-          <DigitalAgencyTestimonial
-            modalTestimonial1={modalTestimonial1}
-            modalTestimonial2={modalTestimonial2}
-            modalTestimonial3={modalTestimonial3}
-            modalClose1={modalClose1}
-            modalClose2={modalClose2}
-            modalClose3={modalClose3}
-          />
           <DigitalMarketingPrice />
           <DigitalAgencyCTA />
         </RootLayout>

@@ -12,10 +12,24 @@ const About = () => {
   return (
     <div>
       <Head>
-        <title>About</title>
-        <meta name="description" content="About Description" />
+        <title>About XSUSTAIN | Innovation in Digital Solutions</title>
+        <meta name="description" content="Discover XSUSTAIN, a leading digital agency specializing in web development, CRM solutions, branding, and social media management. Transform your business with our expertise." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="keywords" content="About XSUSTAIN, digital agency, web development, CRM solutions, branding, social media marketing" />
+        <meta name="author" content="XSUSTAIN" />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="About XSUSTAIN | Innovation in Digital Solutions" />
+        <meta property="og:description" content="Learn about XSUSTAIN’s mission, expertise, and commitment to delivering top-notch digital solutions for businesses." />
+        <meta property="og:image" content="https://www.xsustain.io/logo.png" />
+        <meta property="og:url" content="https://www.xsustain.io/about" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="About XSUSTAIN | Innovation in Digital Solutions" />
+        <meta name="twitter:description" content="Explore XSUSTAIN's journey in web development, CRM, branding, and social media growth strategies." />
+        <meta name="twitter:image" content="https://www.xsustain.io/logo.png" />
       </Head>
+
       <main>
         <RootLayout>
           <AboutHero />

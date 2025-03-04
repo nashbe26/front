@@ -83,22 +83,7 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
                 </li>
               </ul>
             </div>
-            <div className="offcanvas__links">
-              <ul>
-                <li>
-                  <Link href="/about">About</Link>
-                </li>
-                <li>
-                  <Link href="/contact">contact</Link>
-                </li>
-                <li>
-                  <Link href="/career">Career</Link>
-                </li>
-                <li>
-                  <Link href="/blog">blog</Link>
-                </li>
-              </ul>
-            </div>
+         
           </div>
           <div className="offcanvas__mid">
             <div className="offcanvas__menu-wrapper">
@@ -114,6 +99,13 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
                   <li>
                     <div className="header_title d-flex">
                       <Link href={"/service"}>SERVICE</Link>
+                     
+                    </div>
+                   
+                  </li>
+                  <li>
+                    <div className="header_title d-flex">
+                      <Link href={"/portfolio"}>PORTFOLIO</Link>
                      
                     </div>
                    

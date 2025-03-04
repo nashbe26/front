@@ -1,6 +1,7 @@
 import animationCharCome from "@/lib/utils/animationCharCome";
 import animationWordCome from "@/lib/utils/animationWordCome";
 import { useEffect, useRef } from "react";
+import { useForm } from "react-hook-form";
 
 const Contact1 = () => {
   const charAnim = useRef();
@@ -9,6 +10,34 @@ const Contact1 = () => {
     animationCharCome(charAnim.current);
     animationWordCome(wordAnim.current);
   }, []);
+
+  const {
+    register,
+    handleSubmit,
+    formState: { errors, isSubmitting },
+    reset,
+  } = useForm();
+
+  const onSubmit = async (data) => {
+    try {
+      const response = await fetch("/api-xsustain-main/handle-email", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+
+      if (!response.ok) {
+        throw new Error("Failed to send message");
+      }
+
+      alert("Message sent successfully!");
+      reset();
+    } catch (error) {
+      alert(error.message);
+    }
+  };
   return (
     <>
       <section className="contact__area-6">
@@ -55,7 +84,7 @@ const Contact1 = () => {
                   </li>
                   <li>
                     <span>
-                    40 Av. Habib Bourguiba, Bardo <br /> Tunisia
+                      40 Av. Habib Bourguiba, Bardo <br /> Tunisia
                     </span>
                   </li>
                 </ul>
@@ -63,44 +92,32 @@ const Contact1 = () => {
             </div>
             <div className="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
               <div className="contact__form">
-                <form action="assets/mail.php" method="POST">
-                  <div className="row g-3">
-                    <div className="col-xxl-6 col-xl-6 col-12">
-                      <input type="text" name="name" placeholder="Name *" />
-                    </div>
-                    <div className="col-xxl-6 col-xl-6 col-12">
-                      <input type="email" name="email" placeholder="Email *" />
-                    </div>
+                <form onSubmit={handleSubmit(onSubmit)}>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                    <input {...register("name", { required: "Name is required" })} placeholder="Name *" className="input" />
+                    {errors.name && <p className="error">{errors.name.message}</p>}
+
+                    <input {...register("email", { required: "Email is required", pattern: { value: /.+@.+\..+/, message: "Invalid email" } })} placeholder="Email *" className="input" />
+                    {errors.email && <p className="error">{errors.email.message}</p>}
                   </div>
-                  <div className="row g-3">
-                    <div className="col-xxl-6 col-xl-6 col-12">
-                      <input type="tel" name="phone" placeholder="Phone" />
-                    </div>
-                    <div className="col-xxl-6 col-xl-6 col-12">
-                      <input
-                        type="text"
-                        name="subject"
-                        placeholder="Subject *"
-                      />
-                    </div>
+
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-3">
+                    <input {...register("phone", { required: "Phone number is required" })} placeholder="Phone" className="input" />
+                    {errors.phone && <p className="error">{errors.phone.message}</p>}
+
+                    <input {...register("subject", { required: "Subject is required" })} placeholder="Subject *" className="input" />
+                    {errors.subject && <p className="error">{errors.subject.message}</p>}
                   </div>
-                  <div className="row g-3">
-                    <div className="col-12">
-                      <textarea
-                        name="message"
-                        placeholder="Messages *"
-                      ></textarea>
-                    </div>
+
+                  <div className="mt-3">
+                    <textarea {...register("message", { required: "Message is required" })} placeholder="Messages *" className="textarea"></textarea>
+                    {errors.message && <p className="error">{errors.message.message}</p>}
                   </div>
-                  <div className="row g-3">
-                    <div className="col-12">
-                      <div className="btn_wrapper">
-                        <button className="wc-btn-primary btn-hover btn-item">
-                          <span></span> Send <br />
-                          Messages <i className="fa-solid fa-arrow-right"></i>
-                        </button>
-                      </div>
-                    </div>
+
+                  <div className="mt-3">
+                    <button type="submit" className="btn" disabled={isSubmitting}>
+                      {isSubmitting ? "Sending..." : "Send Message"}
+                    </button>
                   </div>
                 </form>
               </div>

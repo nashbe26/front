@@ -7,6 +7,12 @@ import Brand3 from "../../../public/assets/imgs/brand/3.png";
 import Brand4 from "../../../public/assets/imgs/brand/4.png";
 import Brand5 from "../../../public/assets/imgs/brand/5.png";
 import Brand6 from "../../../public/assets/imgs/brand/6.png";
+import Brand7 from "../../../public/assets/imgs/brand/7.png";
+import Brand8 from "../../../public/assets/imgs/brand/8.svg";
+import Brand9 from "../../../public/assets/imgs/brand/9.png";
+import Brand10 from "../../../public/assets/imgs/brand/10.png";
+import Brand11 from "../../../public/assets/imgs/brand/11.png";
+import Brand12 from "../../../public/assets/imgs/brand/12.png";
 import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -75,8 +81,8 @@ const DigitalAgencyBrand = () => {
                 <div className="brand__item fade_bottom">
                   <Image
                     priority
-                    width={97}
-                    height={67}
+                    width={165}
+                    style={{height:"auto"}}
                     src={Brand1}
                     alt="Brand Logo"
                   />
@@ -84,8 +90,8 @@ const DigitalAgencyBrand = () => {
                 <div className="brand__item fade_bottom">
                   <Image
                     priority
-                    width={85}
-                    height={67}
+                    width={130}
+                    style={{height:"auto"}}
                     src={Brand2}
                     alt="Brand Logo"
                   />
@@ -93,36 +99,9 @@ const DigitalAgencyBrand = () => {
                 <div className="brand__item fade_bottom">
                   <Image
                     priority
-                    width={114}
-                    height={64}
-                    src={Brand3}
-                    alt="Brand Logo"
-                  />
-                </div>
-                <div className="brand__item fade_bottom">
-                  <Image
-                    priority
-                    width={82}
-                    height={70}
-                    src={Brand4}
-                    alt="Brand Logo"
-                  />
-                </div>
-                <div className="brand__item fade_bottom">
-                  <Image
-                    priority
-                    width={115}
-                    height={67}
-                    src={Brand5}
-                    alt="Brand Logo"
-                  />
-                </div>
-                <div className="brand__item fade_bottom">
-                  <Image
-                    priority
-                    width={121}
-                    height={63}
-                    src={Brand6}
+                    width={160}
+                    style={{height:"auto"}}
+                    src={Brand11}
                     alt="Brand Logo"
                   />
                 </div>
@@ -130,7 +109,7 @@ const DigitalAgencyBrand = () => {
                   <Image
                     priority
                     width={114}
-                    height={64}
+                    style={{height:"auto"}}
                     src={Brand3}
                     alt="Brand Logo"
                   />
@@ -138,8 +117,8 @@ const DigitalAgencyBrand = () => {
                 <div className="brand__item fade_bottom">
                   <Image
                     priority
-                    width={82}
-                    height={70}
+                    width={160}
+                    style={{height:"auto"}}
                     src={Brand4}
                     alt="Brand Logo"
                   />
@@ -147,8 +126,8 @@ const DigitalAgencyBrand = () => {
                 <div className="brand__item fade_bottom">
                   <Image
                     priority
-                    width={115}
-                    height={67}
+                    width={155}
+                    style={{height:"auto"}}
                     src={Brand5}
                     alt="Brand Logo"
                   />
@@ -156,8 +135,8 @@ const DigitalAgencyBrand = () => {
                 <div className="brand__item fade_bottom">
                   <Image
                     priority
-                    width={121}
-                    height={63}
+                    width={150}
+                    style={{height:"auto"}}
                     src={Brand6}
                     alt="Brand Logo"
                   />
@@ -165,18 +144,45 @@ const DigitalAgencyBrand = () => {
                 <div className="brand__item fade_bottom">
                   <Image
                     priority
-                    width={97}
-                    height={67}
-                    src={Brand1}
+                    width={100}
+                    style={{height:"auto"}}
+                    src={Brand7}
                     alt="Brand Logo"
                   />
                 </div>
                 <div className="brand__item fade_bottom">
                   <Image
                     priority
-                    width={85}
-                    height={67}
-                    src={Brand2}
+                    width={130}
+                    style={{height:"auto"}}
+                    src={Brand8}
+                    alt="Brand Logo"
+                  />
+                </div>
+                <div className="brand__item fade_bottom">
+                  <Image
+                    priority
+                    width={140}
+                    style={{height:"auto"}}
+                    src={Brand9}
+                    alt="Brand Logo"
+                  />
+                </div>
+                <div className="brand__item fade_bottom">
+                  <Image
+                    priority
+                    width={140}
+                    style={{height:"auto"}}
+                    src={Brand10}
+                    alt="Brand Logo"
+                  />
+                </div>
+                <div className="brand__item fade_bottom">
+                  <Image
+                    priority
+                    width={140}
+                    style={{height:"auto"}}
+                    src={Brand12}
                     alt="Brand Logo"
                   />
                 </div>
