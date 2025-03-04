@@ -178,9 +178,9 @@ const Team1 = () => {
               },
             }}
           >
-            {DATA.map(x=>{
+            {DATA.map((x,index)=>{
               return(
-                <SwiperSlide>
+                <SwiperSlide key={index}>
                   <div className="team__slide">
                     <Link href="/">
                       <Image

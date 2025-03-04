@@ -304,7 +304,7 @@ const Portfolio1 = () => {
                             Your browser does not support the video tag.
                           </video>
                           <div className="portfolio__content-6">
-                            <h4 className="portfolio__title-6">Parad'eyes optique</h4>
+                            <h4 className="portfolio__title-6">Paradeyes optique</h4>
                             <h5 className="portfolio__date">28 November 2024</h5>
                           </div>
 
